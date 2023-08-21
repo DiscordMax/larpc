@@ -21,7 +21,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 header .navbar-sticky {
     top: 0;
     position: fixed!important;
-    background: rgb(23, 24, 27, 0.25)!important;
+    background: rgb(17, 17, 17, 0.25)!important;
     backdrop-filter: blur(46px)!important;
     -webkit-backdrop-filter: blur(46px)!important;	
     background-color: var(--header-bg-color);
