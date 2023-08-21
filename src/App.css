@@ -850,6 +850,7 @@ i.icon {
     -webkit-box-align: center;
     align-items: center;
     color: #ffffff;
+    cursor: pointer;
     background: transparent;
     border-color: rgb(60, 158, 233);
     border: rgb(60, 158, 233) solid;
