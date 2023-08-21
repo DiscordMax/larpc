@@ -1029,7 +1029,7 @@ ul {
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
-    padding-top: 11rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 @media (max-width: 380px) {
