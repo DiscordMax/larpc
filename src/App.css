@@ -1167,8 +1167,9 @@ p-main {
     color: white;
     line-height: 24px;
     padding: 16px 99px;
+    width: 340px;
     text-align: center;
-    margin-right: 24px;
+    margin-right: 12px;
     margin-top: 20px;
     cursor: pointer;
     text-decoration: none;
@@ -1212,12 +1213,13 @@ p-main {
 .button4 {
     /*background-color: #99AAB5;*/
     /* Black but not Black */
-    border: #99AAB5 solid;
-    border-color: #99AAB5;
+    border: #fff solid;
+    border-color: #fff;
     border-radius: 50px;
-                        white-space: nowrap;
-                    flex-shrink: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
     color: white;
+    width: 340px;
     line-height: 24px;
     padding: 16px 89px;
     text-align: center;
