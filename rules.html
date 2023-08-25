@@ -673,7 +673,7 @@ svg {
   overflow: hidden;
 }
 
-.wrapper-dropdown .dropdown li:last-child {
+.wrapper-dropdown .dropdown123 li:last-child {
   border-bottom: none;
 }
 
@@ -681,12 +681,12 @@ svg {
   padding: 0.5rem !important;
 }
 
-.wrapper-dropdown .dropdown li:hover {
+.wrapper-dropdown .dropdown123 li:hover {
   background-color: rgb(35, 40, 49);
   border-radius: 10px;
 }
 
-.wrapper-dropdown.active .dropdown {
+.wrapper-dropdown.active .dropdown123 {
   opacity: 1;
   visibility: visible;
 
@@ -942,8 +942,8 @@ a {
         <!-- ==============================================
         Vendor Scripts
         =============================================== -->
-<script>
-	const selectedAll = document.querySelectorAll(".wrapper-dropdown");
+	<script>
+			const selectedAll = document.querySelectorAll(".wrapper-dropdown");
 
 selectedAll.forEach((selected) => {
   const optionsContainer = selected.children[2];
@@ -1001,8 +1001,10 @@ function handleDropdown(dropdown, arrow, open) {
     arrow.classList.remove("rotated");
     dropdown.classList.remove("active");
   }
-};
-	
+}
+	</script>
+<script>
+//DONE	
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
