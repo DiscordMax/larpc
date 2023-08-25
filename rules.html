@@ -489,46 +489,34 @@ main2 {
             <div class="dividers"></div>
 	<div class="sc-1659snh-0 eSjOZD paddingMobile home3">
 						 <div class="scroll-element js-scroll fade-in-bottom scrolled">
-  <div class="container123">
-    <div class="setting-description">
-      <div class="setting-description-text" style="margin-left: 15px">
-        <h10>Description</h10>
-      </div>
-    </div>
-    <div class="wrapper-dropdown" id="dropdown">
-      <span class="selected-display" id="destination">Pick an option!</span>
-      <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
-        <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-      <ul class="dropdown123">
-        <li class="item">Option 1</li>
-        <li class="item">Option 2</li>
-        <li class="item">Option 3</li>
-        <li class="item">Option 4</li>
-      </ul>
-    </div>
+							 
+ <div id="number1" class="dropdown123" status="false">
+  			<div id="selected" class="selected" rel="0">
+    <div class="text">			Game Rules</div>
+		  </div>
 
-    <br>
-
-    <div class="setting-description">
-      <div class="setting-description-text" style="margin-left: 15px">
-        <h10>Description</h10>
+<ul class="ulClass">
+	<li rel="1">
+      <div class="text">			
+	      Gaming
       </div>
-    </div>
-    <div class="wrapper-dropdown" id="dropdown">
-      <span class="selected-display" id="destination">Pick a different option!</span>
-      <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
-        <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-      <ul class="dropdown123">
-        <li class="item">Special Option 1</li>
-        <li class="item">Special Option 2</li>
-        <li class="item">Special Option 3</li>
-        <li class="item">Special Option 4</li>
-      </ul>
-    </div>
-  </div>
-</div>
+    </li>
+			  </ul>
+		</div>
+
+							 
+<div id="number2" class="dropdown123" status="false">
+  			<div id="selected" class="selected" rel="0">
+    <div class="text">			Discord Rules</div>
+		  </div>
+	<!-- Starting -->
+			  <ul class="ulClass">
+				    <li rel="1">
+      <div class="text">			Smile
+      </div>
+    </li>
+			  </ul>
+		</div>
 </div>
 </div>
 
@@ -540,158 +528,64 @@ main2 {
             <div class="modal-content full">
               <style>
 		      
-
-.container123 {
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 0 auto;
-  display: block;
-  min-width: 231.5px;
-  width: 100% !important;
-  max-width: 483px;
-}
-
-/* the code below is for the dropdown heading */
-.setting-description {
-  background-color: #1c2028; 
-  border-radius: 15px 15px 0px 0px;
-  
-  min-width: 231.5px;
-  width: 100% !important;
-  max-width: 483px;
-}
-
-h10 {
-  font-size: 12px;
-  margin-left: 5px !important;
-  letter-spacing: 0.8px;
-  font-family: Arial !important;
-}
-
-.setting-description-text {
-  padding-top: 18px !important;
-  color: #81828b;
-  font-family: Gilroy-Regular !important;
-}
-
-/* the code below is for the dropdown menu */
-.wrapper-dropdown {
-  position: relative;
-  display: inline-block;
-  min-width: 231.5px;
-  width: 100%; !important;
-  max-width: 483px;
-  padding: 0px 0px 0px 0px;
-  min-height: 44px;
-  border-radius: 0px 0px 15px 15px;
-  background: #1c2028;
-  text-align: left;
-  color: #fff;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-bottom: 20px;
-  font-family: Arial;
-}
-
-
-.scrollable-menu {
-  height: auto;
-  max-height: 200px;
-  overflow-x: hidden;
-}
-
-.arrow {
-  margin-left: 10px;
-  margin-right: 10px;
-  float: right;
-  rotate: 180deg;
-}
-
-.selected-display {
-  margin-left: 20px;
-}
-
-svg {
-  transition: all 0.3s;
-}
-
-.wrapper-dropdown::before {
-  position: absolute;
-  top: 50%;
-  right: 16px;
-
-  margin-top: -2px;
-
-  border-width: 6px 6px 0 6px;
-  border-style: solid;
-  border-color: #fff transparent;
-}
-
-.rotated {
-  transform: rotate(-180deg);
-}
-
-.wrapper-dropdown .dropdown123 {
-  transition: 0.3s;
-
-  position: absolute;
-  top: 120%;
-  right: 0;
-  left: 0;
-
-  margin: 0;
-  padding: 0;
-
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+			}
+.ulClass {
+  padding:0;
+  margin:0;
   list-style: none;
-
-  z-index: 99;
-
-  border-radius: 15px;
-  box-shadow: inherit;
-  background: inherit;
-
-  -webkit-transform-origin: top;
-  -moz-transform-origin: top;
-  -ms-transform-origin: top;
-  transform-origin: top;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  opacity: 0;
-  visibility: hidden;
+  list-style-image: none;  
 }
-
-.wrapper-dropdown .dropdown123 li {
-  padding: 0 15px;
-  line-height: 45px;
-  overflow: hidden;
+			.dropdown123 {
+				  border: 1px solid rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+        margin-bottom: 10px;
+			}
+			.dropdown123 #selected {
+				  width: 100%;
+				  background:#FFF;
+				  background-clip: padding-box;
+				  padding: 16px 15px 15px 55px;
+			}
+.dropdown123 .icon {
+  width:40px;
+  height:40px;
+  background:rgba(0,0,0,0.15);
+  position:absolute;
+  left:5px;
+  top:5px;
 }
+			.dropdown123 .arrow {
+		  	position:absolute;
+  right:0;
+  top:0;
+  margin:20px 10px;
+  width: 20px;
+  height: 10px;
+  background:red;
+			}
+			.dropdown123 #selected:hover {
+				  cursor:pointer;
+			}
+			.dropdown123 li:hover {
+				  cursor:pointer;
+			}
+			.dropdown123 ul {
+				  display:none;
+			}
+		
+			.dropdown123 li {
+				  padding: 16px 15px 15px 55px;
+				  position:relative;
+				  border-top: 1px solid rgba(0,0,0,0.05);
+			}
+			.dropdown123 li:first-of-type {
+				  border-top: 1px solid rgba(0,0,0,0.1);
+			}
 
-.wrapper-dropdown .dropdown123 li:last-child {
-  border-bottom: none;
-}
-
-.dropdown123 {
-  padding: 0.5rem !important;
-}
-
-.wrapper-dropdown .dropdown123 li:hover {
-  background-color: rgb(35, 40, 49);
-  border-radius: 10px;
-}
-
-.wrapper-dropdown.active .dropdown123 {
-  opacity: 1;
-  visibility: visible;
-
-  border-radius: 15px;
-}
 		      
                 .closeIcon-2dbyjK {
     width: 24px;    
@@ -943,65 +837,56 @@ a {
         Vendor Scripts
         =============================================== -->
 	<script>
-			const selectedAll = document.querySelectorAll(".wrapper-dropdown");
-
-selectedAll.forEach((selected) => {
-  const optionsContainer = selected.children[2];
-  const optionsList = selected.querySelectorAll("div.wrapper-dropdown li");
-
-  selected.addEventListener("click", () => {
-    let arrow = selected.children[1];
-
-    if (selected.classList.contains("active")) {
-      handleDropdown(selected, arrow, false);
-    } else {
-      let currentActive = document.querySelector(".wrapper-dropdown.active");
-
-      if (currentActive) {
-        let anotherArrow = currentActive.children[1];
-        handleDropdown(currentActive, anotherArrow, false);
-      }
-
-      handleDropdown(selected, arrow, true);
+$(document).ready(function(){
+				  $("body").on("click", ".selected", function(event){
+    $('.dropdown').attr('status', 'false');
+    $('.dropdown ul').hide();
+    var name = $(this).parent().attr("id"),
+        status = $(this).parent().attr("status");
+    //$(this).children('.text').html(name + ' ' + status);
+    if (status == "false") { 
+      $('#' + name).attr("status", "true");  
+      $('#' + name + ' ul').show();  
+      $('.arrow').attr( 'src','images/arrow_up.png');
+    } else if (status == "true") {
+      $('#' + name).attr("status", "false");
+      $('#' + name + ' ul').hide(); 
+      $('.arrow').attr( 'src','images/arrow_down.png');
     }
+						  });
+  
+  $(document).mouseup(function (e) {
+    var container = $(".dropdown");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      $('.dropdown').attr('status', 'false');
+      $('.dropdown ul').hide();
+      $('.arrow').attr( 'src','images/arrow_down.png');
+    }  
+  			}); 
+  
+  $("body").on("click", "li", function(event){
+    var name = $(this).parent().parent().attr("id"),
+        rel = parseInt($(this).attr('rel')),
+        rel2 = parseInt($(this).parent().parent().children().first().attr('rel')),
+        relcontent = $(this).html(),
+					        relcontent2 = $(this).parent().parent().children().first().html(),
+        rel2before = rel2 - 1,
+        rel2after = rel2 + 1,
+        reltotal = $(this).parent().children().length,
+        rellast = parseInt($(this).parent().children().last().attr('rel'));
+    $(this).parent().parent().children().first().attr( 'rel',rel).html(relcontent);
+    
+    if (rel2 == reltotal) {
+						      $('#' + name + ' li:nth-child(' + reltotal + ')').after('<li rel="' + rel2 + '">' + relcontent2 + '</li>');
+					    } else if (rel2 == rellast) {
+						      $('#' + name + ' li:nth-child(' + rel2before + ')').after('<li rel="' + rel2 + '">' + relcontent2 + '</li>');
+					    } else {
+						      $('#' + name + ' li:nth-child(' + rel2after + ')').before('<li rel="' + rel2 + '">' + relcontent2 + '</li>');
+					    }
+					    $(this).remove();
+    $('#' + name + '.dropdown ul').hide();
   });
-
-  // update the display of the dropdown
-  for (let o of optionsList) {
-    o.addEventListener("click", () => {
-      selected.querySelector(".selected-display").innerHTML = o.innerHTML;
-    });
-  }
-});
-
-// check if anything else ofther than the dropdown is clicked
-window.addEventListener("click", function (e) {
-  if (e.target.closest(".wrapper-dropdown") === null) {
-    closeAllDropdowns();
-  }
-});
-
-// close all the dropdowns
-function closeAllDropdowns() {
-  const selectedAll = document.querySelectorAll(".wrapper-dropdown");
-  selectedAll.forEach((selected) => {
-    const optionsContainer = selected.children[2];
-    let arrow = selected.children[1];
-
-    handleDropdown(selected, arrow, false);
-  });
-}
-
-// open all the dropdowns
-function handleDropdown(dropdown, arrow, open) {
-  if (open) {
-    arrow.classList.add("rotated");
-    dropdown.classList.add("active");
-  } else {
-    arrow.classList.remove("rotated");
-    dropdown.classList.remove("active");
-  }
-}
+}); 
 	</script>
 <script>
 //DONE	
