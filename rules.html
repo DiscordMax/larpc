@@ -838,7 +838,7 @@ a {
         =============================================== -->
 	<script>
 $(document).ready(function(){
-				  $("body").on("click", ".selected", function(event){
+$("body").on("click", ".selected", function(event){
     $('.dropdown123').attr('status', 'false');
     $('.dropdown123 ul').hide();
     var name = $(this).parent().attr("id"),
@@ -856,9 +856,8 @@ $(document).ready(function(){
   $(document).mouseup(function (e) {
     var container = $(".dropdown123");
     if (!container.is(e.target) && container.has(e.target).length === 0) {
-      $('.dropdown').attr('status', 'false');
-      $('.dropdown ul').hide();
-      $('.arrow').attr( 'src','images/arrow_down.png');
+      $('.dropdown123').attr('status', 'false');
+      $('.dropdown123 ul').hide();
     }  
   			}); 
   
